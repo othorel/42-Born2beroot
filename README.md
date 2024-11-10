@@ -4,12 +4,13 @@
   <img src="https://imgur.com/oAW0x90.png" alt="Born2beroot 42 project badge"/>
 </p>
 
-I am not the original author of this guide, but I recommend following this excellent guide by mcombeau, which I have added to my repository.
+I am not the original author of this guide, but I recommend following this excellent guide by [mcombeau](https://github.com/mcombeau), which I have added to my repository.
 
 However, I have made some modifications to this guide, which I will indicate with the note: "Edit bepoisso".
 
 You can find all their networks at the bottom of each guide page and here:
 
+---
 Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.linkedin.com/in/mia-combeau-86653420b/) | Website: [codequoi.com](https://www.codequoi.com)
 
 The 42 project Born2beroot explores the fundamentals of system administration by inviting us to install and configure a virtual machine. By the end of this project, we will have learned about virtualization, partitioning schemes, LVM, command-line software, protocols such as SSH and the importance of securing a system thanks to sudo, firewalls and password policies.
