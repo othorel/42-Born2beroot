@@ -2,7 +2,7 @@
 
 This guide covers the installation of sudo, UFW, SSH, Password Policy, monitoring.sh. There is also a fix for the common ERROR: Failed to send host log message.
 
-There is a [VM installation guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/installation_debian.md) and a [bonus guide](https://github.com/mcombeau/Born2beroot/blob/main/guide/bonus_debian.md), as well.
+There is a [VM installation guide](https://github.com/Benjamin-poisson/42-Born2beroot/blob/main/guide/installation_debian.md) and a [bonus guide](https://github.com/Benjamin-poisson/42-Born2beroot/blob/main/guide/bonus_debian.md), as well.
 
 ## Sudo Setup
 
@@ -209,7 +209,7 @@ The user named your_intra_login must be part of the ```sudo``` and ```user42``` 
 * ```getent group``` : displays a list of all users in a group.
 
 ## Monitoring.sh
-Write [```monitoring.sh```](https://github.com/mcombeau/Born2beroot/blob/main/monitoring.sh) file as root and put it in /root directory.
+Write [```monitoring.sh```](https://github.com/Benjamin-poisson/42-Born2beroot/blob/main/monitoring.sh) file as root and put it in /root directory.
 
 Check the following commands to figure out how to write the script:
 * ```uname``` : architecture information
@@ -246,7 +246,7 @@ Or, if the wall command isn't incorporated into the monitoring script:
 ```bash
 */10 * * * * bash /root/monitoring.sh | wall
 ```
-From here, ```monitoring.sh``` will be executed every 10th minute. To make it execute every ten minutes **from system startup**, we can create a [```sleep.sh```](https://github.com/mcombeau/Born2beroot/blob/main/sleep.sh) script that calculates the delay between server startup time and the tenth minute of the hour, then add it to the cron job to apply the delay.
+From here, ```monitoring.sh``` will be executed every 10th minute. To make it execute every ten minutes **from system startup**, we can create a [```sleep.sh```](https://github.com/Benjamin-poisson/42-Born2beroot/blob/main/sleep.sh) script that calculates the delay between server startup time and the tenth minute of the hour, then add it to the cron job to apply the delay.
 ```bash
 */10 * * * * bash /root/sleep.sh && bash /root/monitoring.sh
 ```
