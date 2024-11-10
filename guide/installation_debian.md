@@ -10,13 +10,14 @@ There is a [configuration guide](https://github.com/Benjamin-poisson/42-Born2ber
 * Enough free disk space.
 
 ## Creating a Virtual Machine in Virtualbox
+edit bepoisso
 1. Launch VirtualBox & click New.
 3. Name Born2beroot, sotre it in ```/sgoinfre/goinfre/Perso/your_login``` if at 42, or else on a large USB stick. Choose Linux & Debian.
 4. ```1024MB``` memory is good.
 5. Create a virtual hard disk now.
 6. ```VDI```.
 7. ```Dynamically allocated```.
-8. ```10 to 13 GB``` is enough for both mandatory and bonus parts.
+8. ```15 to 18 GB``` is enough for both mandatory and bonus parts.
 9. Start Born2beroot virtual machine.
 
 ## Installing Debian
