@@ -1,8 +1,8 @@
-# Born2beroot
+<div align="center">
+  <img height="200" src="https://raw.githubusercontent.com/Benjamin-poisson/My_image_bank/refs/heads/main/gnl.png"  />
+</div>
 
-<p align="center">
-  <img src="https://imgur.com/oAW0x90.png" alt="Born2beroot 42 project badge"/>
-</p>
+# Born2beroot
 
 I am not the original author of this guide, but I recommend following this excellent guide by [mcombeau](https://github.com/mcombeau), which I have added to my repository.
 
@@ -16,7 +16,9 @@ Made by mcombeau: mcombeau@student.42.fr | LinkedIn: [mcombeau](https://www.link
 The 42 project Born2beroot explores the fundamentals of system administration by inviting us to install and configure a virtual machine. By the end of this project, we will have learned about virtualization, partitioning schemes, LVM, command-line software, protocols such as SSH and the importance of securing a system thanks to sudo, firewalls and password policies.
 
 ## Status
-
+<div align="center">
+  <img height="200" src="https://raw.githubusercontent.com/Benjamin-poisson/My_image_bank/refs/heads/main/born2beroot_succes.png"  />
+</div>
 
 ## Pre-requisites
 * [Oracle VirtualBox](https://www.virtualbox.org/) (12.8 at the time of this writing).
